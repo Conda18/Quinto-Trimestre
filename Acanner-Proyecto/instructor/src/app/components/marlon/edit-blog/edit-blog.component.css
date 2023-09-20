@@ -1,0 +1,13 @@
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+    background: linear-gradient(120deg, #00aaff, #aa00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitulo {
+    font-size: 24px;
+}
+.descripcion {
+    font-size: 18px;
+}

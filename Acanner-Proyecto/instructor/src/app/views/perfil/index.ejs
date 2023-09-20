@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/imagenes/icono.png">
+    <title>Su Perfil</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 text-center"> <!-- Cambiamos col-ms-12 a col-sm-12 y agregamos text-center -->
+                <img src="/imagenes/Perfil.png" alt="Foto de perfil" class="img-perfil img-fluid"> <!-- Agregamos img-fluid para que la imagen sea responsive -->
+            </div>
+            <div class="col-md-8">
+                <h1>Nombre Apellido</h1> <!-- Mantenemos el contenido del nombre -->
+                <h3>Numero de ficha</h3> <!-- Mantenemos el contenido del número de ficha -->
+                <p>Descripción breve sobre ti y tus habilidades.</p> <!-- Mantenemos la descripción original -->
+                <ul>
+                    <li><strong>Correo institucional:</strong> correo@example.com</li> <!-- Mantenemos el contenido del correo institucional -->
+                    <li><strong>Teléfono:</strong> 1234567890</li> <!-- Mantenemos el contenido del teléfono -->
+                    <li><strong>Trimestre:</strong> Numero De trimestre</li> <!-- Mantenemos el contenido del trimestre -->
+                    <br><br>
+                    <a href="/perfil/:id/edit" class="btn btn-primary">Editar Perfil</a> <!-- Cambiamos el enlace para que sea genérico, sin usar el ID -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
